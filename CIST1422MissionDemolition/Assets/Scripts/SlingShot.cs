@@ -72,6 +72,8 @@ public class SlingShot : MonoBehaviour
             MouseDelta.Normalize();
             MouseDelta *= MaxMagnitude;
 
+            
+
         } 
 
         Vector3 ProjectilePosition = LaunchPosition + MouseDelta;
